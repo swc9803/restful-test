@@ -1,7 +1,11 @@
 <template>
-  <div class="home">home</div>
+  <div class="home">
+    <Ground />
+  </div>
 </template>
 
-<script setup></script>
+<script setup>
+import Ground from "@/components/Ground.vue";
+</script>
 
 <style lang="scss"></style>
